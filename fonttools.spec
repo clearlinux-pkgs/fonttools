@@ -4,7 +4,7 @@
 #
 Name     : fonttools
 Version  : 3.34.2
-Release  : 5
+Release  : 6
 URL      : https://github.com/fonttools/fonttools/archive/3.34.2.tar.gz
 Source0  : https://github.com/fonttools/fonttools/archive/3.34.2.tar.gz
 Summary  : No detailed summary available
