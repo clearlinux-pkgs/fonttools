@@ -4,7 +4,7 @@
 #
 Name     : fonttools
 Version  : 3.43.2
-Release  : 23
+Release  : 24
 URL      : https://github.com/fonttools/fonttools/archive/3.43.2/fonttools-3.43.2.tar.gz
 Source0  : https://github.com/fonttools/fonttools/archive/3.43.2/fonttools-3.43.2.tar.gz
 Summary  : No detailed summary available
