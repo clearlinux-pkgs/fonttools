@@ -4,7 +4,7 @@
 #
 Name     : fonttools
 Version  : 4.2.2
-Release  : 34
+Release  : 35
 URL      : https://github.com/fonttools/fonttools/archive/4.2.2/fonttools-4.2.2.tar.gz
 Source0  : https://github.com/fonttools/fonttools/archive/4.2.2/fonttools-4.2.2.tar.gz
 Summary  : No detailed summary available
