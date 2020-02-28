@@ -4,10 +4,10 @@
 #
 Name     : fonttools
 Version  : 4.4.1
-Release  : 41
+Release  : 42
 URL      : https://github.com/fonttools/fonttools/archive/4.4.1/fonttools-4.4.1.tar.gz
 Source0  : https://github.com/fonttools/fonttools/archive/4.4.1/fonttools-4.4.1.tar.gz
-Summary  : No detailed summary available
+Summary  : Tools to manipulate font files
 Group    : Development/Tools
 License  : MIT OFL-1.1
 Requires: fonttools-bin = %{version}-%{release}
@@ -80,6 +80,7 @@ python components for the fonttools package.
 Summary: python3 components for the fonttools package.
 Group: Default
 Requires: python3-core
+Provides: pypi(fonttools)
 
 %description python3
 python3 components for the fonttools package.
@@ -94,7 +95,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1582755580
+export SOURCE_DATE_EPOCH=1582924839
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
