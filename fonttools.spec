@@ -4,7 +4,7 @@
 #
 Name     : fonttools
 Version  : 4.28.3
-Release  : 94
+Release  : 95
 URL      : https://github.com/fonttools/fonttools/archive/4.28.3/fonttools-4.28.3.tar.gz
 Source0  : https://github.com/fonttools/fonttools/archive/4.28.3/fonttools-4.28.3.tar.gz
 Summary  : Tools to manipulate font files
