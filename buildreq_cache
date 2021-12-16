@@ -1,11 +1,9 @@
-4.28.3
+4.28.4
 pypi(brotli)
 pypi(brotlicffi)
 pypi(fs)
 pypi(munkres)
-pypi(pyobjc)
 pypi(scipy)
-pypi(skia_pathops)
 pypi(ufolib2)
 pypi(unicodedata2)
 pypi(zopfli)
