@@ -1,5 +1,5 @@
 PKG_NAME := fonttools
-URL = https://github.com/fonttools/fonttools/archive/4.28.4/fonttools-4.28.4.tar.gz
+URL = https://github.com/fonttools/fonttools/archive/4.28.5/fonttools-4.28.5.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
