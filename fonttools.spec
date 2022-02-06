@@ -4,7 +4,7 @@
 #
 Name     : fonttools
 Version  : 4.28.5
-Release  : 99
+Release  : 100
 URL      : https://github.com/fonttools/fonttools/archive/4.28.5/fonttools-4.28.5.tar.gz
 Source0  : https://github.com/fonttools/fonttools/archive/4.28.5/fonttools-4.28.5.tar.gz
 Summary  : Tools to manipulate font files
@@ -16,19 +16,19 @@ Requires: fonttools-man = %{version}-%{release}
 Requires: fonttools-python = %{version}-%{release}
 Requires: fonttools-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-BuildRequires : pluggy
-BuildRequires : py-python
 BuildRequires : pypi(brotli)
 BuildRequires : pypi(brotlicffi)
 BuildRequires : pypi(fs)
 BuildRequires : pypi(munkres)
+BuildRequires : pypi(py)
 BuildRequires : pypi(scipy)
 BuildRequires : pypi(ufolib2)
 BuildRequires : pypi(unicodedata2)
 BuildRequires : pypi(zopfli)
-BuildRequires : pytest
-BuildRequires : tox
-BuildRequires : virtualenv
+BuildRequires : pypi-pluggy
+BuildRequires : pypi-pytest
+BuildRequires : pypi-tox
+BuildRequires : pypi-virtualenv
 
 %description
 The *.otf data in this directory was built from:
@@ -73,14 +73,6 @@ Summary: python3 components for the fonttools package.
 Group: Default
 Requires: python3-core
 Provides: pypi(fonttools)
-Requires: pypi(brotli)
-Requires: pypi(brotlicffi)
-Requires: pypi(fs)
-Requires: pypi(munkres)
-Requires: pypi(scipy)
-Requires: pypi(ufolib2)
-Requires: pypi(unicodedata2)
-Requires: pypi(zopfli)
 
 %description python3
 python3 components for the fonttools package.
@@ -98,7 +90,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1639938404
+export SOURCE_DATE_EPOCH=1644187212
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
