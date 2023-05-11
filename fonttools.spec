@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : fonttools
-Version  : 4.39.3
-Release  : 115
-URL      : https://github.com/fonttools/fonttools/archive/4.39.3/fonttools-4.39.3.tar.gz
-Source0  : https://github.com/fonttools/fonttools/archive/4.39.3/fonttools-4.39.3.tar.gz
+Version  : 4.39.4
+Release  : 116
+URL      : https://github.com/fonttools/fonttools/archive/4.39.4/fonttools-4.39.4.tar.gz
+Source0  : https://github.com/fonttools/fonttools/archive/4.39.4/fonttools-4.39.4.tar.gz
 Summary  : Tools to manipulate font files
 Group    : Development/Tools
 License  : Apache-2.0 BSD-3-Clause MIT OFL-1.1
@@ -20,6 +20,7 @@ BuildRequires : buildreq-distutils3
 BuildRequires : pypi(brotli)
 BuildRequires : pypi(brotlicffi)
 BuildRequires : pypi(fs)
+BuildRequires : pypi(glyphslib)
 BuildRequires : pypi(munkres)
 BuildRequires : pypi(py)
 BuildRequires : pypi(scipy)
@@ -80,6 +81,7 @@ Provides: pypi(fonttools)
 Requires: pypi(brotli)
 Requires: pypi(brotlicffi)
 Requires: pypi(fs)
+Requires: pypi(glyphslib)
 Requires: pypi(munkres)
 Requires: pypi(scipy)
 Requires: pypi(ufolib2)
@@ -91,10 +93,10 @@ python3 components for the fonttools package.
 
 
 %prep
-%setup -q -n fonttools-4.39.3
-cd %{_builddir}/fonttools-4.39.3
+%setup -q -n fonttools-4.39.4
+cd %{_builddir}/fonttools-4.39.4
 pushd ..
-cp -a fonttools-4.39.3 buildavx2
+cp -a fonttools-4.39.4 buildavx2
 popd
 
 %build
@@ -102,7 +104,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1682965092
+export SOURCE_DATE_EPOCH=1683841646
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
