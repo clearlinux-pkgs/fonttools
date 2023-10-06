@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : fonttools
-Version  : 4.43.0
-Release  : 122
-URL      : https://github.com/fonttools/fonttools/archive/4.43.0/fonttools-4.43.0.tar.gz
-Source0  : https://github.com/fonttools/fonttools/archive/4.43.0/fonttools-4.43.0.tar.gz
+Version  : 4.43.1
+Release  : 123
+URL      : https://github.com/fonttools/fonttools/archive/4.43.1/fonttools-4.43.1.tar.gz
+Source0  : https://github.com/fonttools/fonttools/archive/4.43.1/fonttools-4.43.1.tar.gz
 Summary  : Tools to manipulate font files
 Group    : Development/Tools
 License  : Apache-2.0 BSD-3-Clause MIT OFL-1.1
@@ -97,10 +97,10 @@ python3 components for the fonttools package.
 
 
 %prep
-%setup -q -n fonttools-4.43.0
-cd %{_builddir}/fonttools-4.43.0
+%setup -q -n fonttools-4.43.1
+cd %{_builddir}/fonttools-4.43.1
 pushd ..
-cp -a fonttools-4.43.0 buildavx2
+cp -a fonttools-4.43.1 buildavx2
 popd
 
 %build
@@ -108,7 +108,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1695996480
+export SOURCE_DATE_EPOCH=1696600871
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
