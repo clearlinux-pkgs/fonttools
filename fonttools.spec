@@ -6,10 +6,10 @@
 # autospec commit: e661f3a
 #
 Name     : fonttools
-Version  : 4.45.0
-Release  : 129
-URL      : https://github.com/fonttools/fonttools/archive/4.45.0/fonttools-4.45.0.tar.gz
-Source0  : https://github.com/fonttools/fonttools/archive/4.45.0/fonttools-4.45.0.tar.gz
+Version  : 4.45.1
+Release  : 130
+URL      : https://github.com/fonttools/fonttools/archive/4.45.1/fonttools-4.45.1.tar.gz
+Source0  : https://github.com/fonttools/fonttools/archive/4.45.1/fonttools-4.45.1.tar.gz
 Summary  : Tools to manipulate font files
 Group    : Development/Tools
 License  : Apache-2.0 BSD-3-Clause MIT OFL-1.1
@@ -101,10 +101,10 @@ python3 components for the fonttools package.
 
 
 %prep
-%setup -q -n fonttools-4.45.0
-cd %{_builddir}/fonttools-4.45.0
+%setup -q -n fonttools-4.45.1
+cd %{_builddir}/fonttools-4.45.1
 pushd ..
-cp -a fonttools-4.45.0 buildavx2
+cp -a fonttools-4.45.1 buildavx2
 popd
 
 %build
@@ -112,7 +112,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1700492583
+export SOURCE_DATE_EPOCH=1701083384
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
