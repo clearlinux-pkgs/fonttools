@@ -7,7 +7,7 @@
 #
 Name     : fonttools
 Version  : 4.54.1
-Release  : 145
+Release  : 146
 URL      : https://github.com/fonttools/fonttools/archive/4.54.1/fonttools-4.54.1.tar.gz
 Source0  : https://github.com/fonttools/fonttools/archive/4.54.1/fonttools-4.54.1.tar.gz
 Summary  : Tools to manipulate font files
