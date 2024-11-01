@@ -1,0 +1,25 @@
+From b568f01e65ca9f58cfad5e2b3522ee9eac8d6995 Mon Sep 17 00:00:00 2001
+From: William Douglas <william.douglas@intel.com>
+Date: Fri, 1 Nov 2024 08:29:35 -0700
+Subject: [PATCH] Remove ufo2ft (not required for tests)
+
+Signed-off-by: William Douglas <william.douglas@intel.com>
+---
+ requirements.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/requirements.txt b/requirements.txt
+index 2fde279..fd94f16 100644
+--- a/requirements.txt
++++ b/requirements.txt
+@@ -11,7 +11,6 @@ fs==2.4.16
+ skia-pathops==0.8.0.post1; platform_python_implementation != "PyPy"
+ # this is only required to run Tests/cu2qu/{ufo,cli}_test.py
+ ufoLib2==0.16.0
+-ufo2ft==3.2.7
+ pyobjc==10.3.1; sys_platform == "darwin"
+ freetype-py==2.4.0
+ uharfbuzz==0.39.3
+-- 
+2.47.0
+

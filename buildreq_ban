@@ -3,3 +3,4 @@
 pypi(pyobjc)
 pypi(skia_pathops)
 pypi(freetype_py)
+pypi(ufo2ft)
