@@ -10,13 +10,13 @@ Signed-off-by: William Douglas <william.douglas@intel.com>
 
 diff --git a/requirements.txt b/requirements.txt
 index 2fde279..fd94f16 100644
---- fonttools-4.55.0/requirements.txt~	2024-11-14 17:00:08.000000000 +0000
-+++ fonttools-4.55.0/requirements.txt	2024-11-14 22:39:46.947899094 +0000
+--- fonttools-4.55.6/requirements.txt~	2025-01-24 18:59:56.000000000 +0000
++++ fonttools-4.55.6/requirements.txt	2025-01-27 22:17:14.753953922 +0000
 @@ -11,7 +11,6 @@
  skia-pathops==0.8.0.post2; platform_python_implementation != "PyPy"
  # this is only required to run Tests/cu2qu/{ufo,cli}_test.py
- ufoLib2==0.16.1
+ ufoLib2==0.17.0
 -ufo2ft==3.3.1
- pyobjc==10.3.1; sys_platform == "darwin"
+ pyobjc==10.3.2; sys_platform == "darwin"
  freetype-py==2.5.1
- uharfbuzz==0.42.0
+ uharfbuzz==0.43.0
